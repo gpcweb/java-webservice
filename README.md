@@ -9,9 +9,9 @@ Luego debes abrirlo con Spring STS y ejecutar como "Run as -> Spring Boot App"
 Este webservice tiene los siguientes endpoints:
 
 * Un endpoint que lista todos los recursos
-```curl -v localhost:3000/users```
+```curl -v localhost:8080/users```
 * Un endpoint que expone un recurso en particular
-```curl -v localhost:3000/users/1``` 
+```curl -v localhost:8080/users/1``` 
 * Un endpoint que permite crear un nuevo recurso:
 ```curl -v -H "Content-Type: application/json" -X POST -d '{"userName": "usuario1", image":"dafadsfasd"}' http://localhost:8080/users```
 
